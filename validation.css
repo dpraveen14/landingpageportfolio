@@ -1,0 +1,58 @@
+body{
+    background-image: url('https://cdn.zeplin.io/6046e8c08dc5a8130f8b8a34/assets/37398CCE-D186-4A15-814A-8486EB913797.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-row{
+    position: relative;
+    left: 35%;
+    right: 35%;
+}
+.form-row{
+text-align: center;
+width: 25.938rem;
+height: auto;
+margin: 4rem 0 0;
+padding: 15px 0px 25px 0px;
+-webkit-backdrop-filter: blur(7px);
+backdrop-filter: blur(7px);
+box-shadow: 0 52px 54px 0 rgba(65, 62, 101, 0.25);
+background-color: rgba(0, 0, 0, 0.44);
+
+}
+.form-row h1{
+    color: white;
+    font-weight: 600;
+    font-family: CircularStd;
+    font-size: 2rem;
+}
+.form-row p{
+    color: white;
+    opacity: .6;
+    font-size: 15px;
+}
+
+.formdesign{
+   padding: 10px 0px 7px 0px;
+}
+.formdesign input{
+padding: 15px;
+border-radius:5px ;
+width: 250px;
+font-size: 15px;
+font-weight: 600;
+background: white;
+}
+#check input span{
+    font-size: 15px; 
+}
+.form-row .button{  /*---------button----------*/
+    border: none;
+    border-radius: 5px;
+margin-top: 5px;
+width: 250px;
+background-color: #f04037;
+font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
