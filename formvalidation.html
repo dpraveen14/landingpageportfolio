@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <link rel="stylesheet" href="validation.css">
+    <title>form</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="text-align: center; font-weight: bold; color: white; "  >Omega</h1>
+        <div class="row  form-row">   <!-----rew--------->
+            <h1>Sign Uo</h1>
+            <p>NO credit cards required</p>
+            <form action="/" name="Myform"  onsubmit="return Validation()" method="post">
+                <div class="formdesign" id="email">    <!-------email input----------------->
+                    <input type="email" name="Email" placeholder="Email address"> <br>
+                    <span class="formerror"></span>  <!-----form error------>
+                </div>
+                <div class="formdesign" id="Cname"> <!------------company name input------------->
+                    <input type="text" name="Compname" placeholder="Company name"> <br>
+                    <span class="formerror"></span>  <!-----form error------>
+                </div>
+                <div class="formdesign" id="password"> <!--------password input--------------->
+                    <input type="password" name="Password" placeholder="Password"> <br>
+                    <span class="formerror"></span>  <!-----form error------>
+                </div>
+                <div>
+                    <input type="checkbox"> <span style="color:white; opacity: .6;" >I agree to the</span> <span style="color: orange;"
+                        >Terms and Conditions</span>
+                </div>
+                <div class="formdesign">
+                    <input class="button" type="submit" value="Get Started">
+                </div>
+                <div>
+                    <p> <span style="color:white ;opacity: .6;"> Already have an account?</span> 
+                        <span  style="color:orange;">Sign in</span></p>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+<script src="formvalidation.js"></script>
+</body>
+
+</html>
